@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Create from './pages/Crtapp';
+import Cancel from './pages/Cnclapp';
+import Change from './pages/Chgapp';
+import { Route, Switch } from 'react-router-dom';
+
 
 class App extends Component {
   render() {
     return (
       <div>
-        <header className= 'banner'><h1>Make a New Appointment</h1></header>
+        <Switch>
+          <Route exact path="/" component={Create} />
+          <Route path="/change" component={Change} />
+          <Route path="/cancel" component={Cancel} />
+        </Switch>
       </div>
     );
   }
