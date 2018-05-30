@@ -1,14 +1,8 @@
-.banner{
-  background-color: red;
+main{
+  background-color: blue; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-main{
-  background-color: blue; display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
+  height: 700px;
 }

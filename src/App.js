@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Create from './pages/Crtapp';
-import Cancel from './pages/Cnclapp';
-import Change from './pages/Chgapp';
+import Create from './pages/CreateAppointment';
+import Cancel from './pages/CancelAppointment';
+import Change from './pages/ChangeAppointment';
 import { Route, Switch } from 'react-router-dom';
 
 
